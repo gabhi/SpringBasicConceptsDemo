@@ -9,15 +9,7 @@ import org.springframework.core.io.FileSystemResource;
  * 
  * @author abhijit
  * 
- *   XmlBeanFactory  example
- *   
- *   this uses the conf file for ApplicationContextExample
- *   
- *   this example also shows how to set property for a bean in conf file and how to get and set 
- *   bean values
- *   
- *   
- *   refer oobjects in the xml file example
+ * collections example
  *   
  */
 public class DrawingApp {
