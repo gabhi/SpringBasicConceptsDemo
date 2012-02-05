@@ -8,8 +8,9 @@ import org.springframework.core.io.FileSystemResource;
 /**
  * 
  * @author abhijit
+ 
  * 
- *   XmlBeanFactory  example
+ * Basic example code without Spring framework
  */
 
 
