@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd" [
+<!ENTITY contextInclude SYSTEM "org/springframework/web/context/WEB-INF/contextInclude.xml">
+]>
+
+<beans>
+
+<bean id ="triangle" class="info.allfollowers.spring.ConstructorInjectionExample.Triangle">
+ 
+ 	<constructor-arg index="0" value="equilateral"/> 	 
+ 	 	<constructor-arg index="1" value="20"/> 	 
+ 	
+ </bean>
+ 
+ 
+ <bean id ="triangle1" class="info.allfollowers.spring.ConstructorInjectionExample.Triangle">
+ 
+ 	<constructor-arg   value="equilateral"/> 	 
+ 	 	<constructor-arg   value="20"/> 	 
+ 	
+ </bean>
+ 
+ 
+ <bean id ="triangle2" class="info.allfollowers.spring.ConstructorInjectionExample.Triangle">
+ 
+  	 	<constructor-arg   value="20"/> 	 
+ 	
+ </bean>
+ 
+ 
+  <bean id ="triangle3" class="info.allfollowers.spring.ConstructorInjectionExample.Triangle">
+ 
+  	 	<constructor-arg index="0" value="equilateral"/> 	 
+ 	 	<constructor-arg index="1" value="20"/>  
+ 	
+ </bean>
+</beans>
